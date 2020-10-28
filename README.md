@@ -1,4 +1,5 @@
 # RewaaSite API
+Rewaa interview assignment project
 
 ## Requirements
 1. MySQL `https://www.mysql.com/downloads/`
@@ -10,7 +11,7 @@
 2. `cd rewaa-api/`
 3. `npm install`
 4. `npm start`
-5. See postman collection below or Navigate to `http://localhost:4200/`.
+5. See postman collection below for API details (`http://localhost:3000/`).
 6. Run the following command to get started
     
     a. Create database - rewaa

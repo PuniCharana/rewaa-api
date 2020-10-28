@@ -12,6 +12,7 @@
 4. `npm start`
 5. See postman collection below or Navigate to `http://localhost:4200/`.
 6. Run the following command to get started
+    
     a. Create database - rewaa
     ```mysql
     CREATE DATABASE IF NOT EXISTS rewaa;
@@ -27,11 +28,11 @@
         UNIQUE (email)
     );
     ```
-    Insert new user
+    c. Insert new user
     ```mysql
     INSERT INTO users (name, email, password, active) VALUES ('Admin', 'admin@rewaa.com', '123456', 1);
     ```
-    c. Create tables - projects
+    d. Create tables - projects
     ```mysql
     CREATE TABLE IF NOT EXISTS products (
         id int(11) NOT NULL PRIMARY KEY AUTO_INCREMENT,
